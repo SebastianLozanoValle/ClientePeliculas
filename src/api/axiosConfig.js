@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const apiUrl = 'http://localhost:8080';
+const apiUrl = 'backend-peliculas-production.up.railway.app';
 
 export const getMovies = async () => {
     try {
